@@ -1,0 +1,352 @@
+ERROR - 2021-11-22 10:23:13 --> Column 'id_kota' cannot be null
+CRITICAL - 2021-11-22 10:23:13 --> Column 'id_kota' cannot be null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ko...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('2')
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#10 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-22 10:23:38 --> Column 'id_kota' cannot be null
+CRITICAL - 2021-11-22 10:23:38 --> Column 'id_kota' cannot be null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ko...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('1')
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#10 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-22 10:25:23 --> Column 'id_kota' cannot be null
+CRITICAL - 2021-11-22 10:25:23 --> Column 'id_kota' cannot be null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ko...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('1')
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#10 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-11-22 10:26:05 --> Undefined variable $row
+#0 D:\xampp\htdocs\ppl-pertemuan1\app\Views\v_edit_kota.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 14)
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('v_edit_kota', Array, true)
+#4 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(65): view('v_edit_kota', Array)
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('1')
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 10:31:52 --> Too few arguments to function App\Controllers\c_kota::editKota(), 0 passed in D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 10:34:07 --> Too few arguments to function App\Controllers\c_kota::editKota(), 0 passed in D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 10:50:24 --> There is no data to update.
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(61): CodeIgniter\Model->update(Array)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('<')
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-22 10:53:19 --> There is no data to update.
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\Model->update(Array)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('<')
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-22 10:54:05 --> There is no data to update.
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(1570): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\Model->update(Array)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('$row->id_kota;')
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-11-22 10:56:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\editKota' at line 1
+CRITICAL - 2021-11-22 10:56:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\editKota' at line 1
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT * FROM k...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\app\Models\m_kota.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(68): App\Models\m_kota->viewDataKota('c_kota\\editKota')
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editViewKota('c_kota\\editKota', '1')
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 11:00:30 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('$row->id_kota', 'update')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, '$row->id_kota')
+#2 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\Model->update(Array, '$row->id_kota')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('$row->id_kota')
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-11-22 11:03:10 --> Column 'id_kota' cannot be null
+CRITICAL - 2021-11-22 11:03:10 --> Column 'id_kota' cannot be null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('REPLACE INTO `k...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1799): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(397): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(1034): CodeIgniter\Model->doReplace(Array, false)
+#6 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\BaseModel->replace(Array)
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('$row->id_kota')
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-11-22 11:04:00 --> Too few arguments to function App\Controllers\c_kota::editKota(), 0 passed in D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-11-22 11:04:13 --> Column 'id_kota' cannot be null
+CRITICAL - 2021-11-22 11:04:13 --> Column 'id_kota' cannot be null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('REPLACE INTO `k...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1799): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(397): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(1034): CodeIgniter\Model->doReplace(Array, false)
+#6 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\BaseModel->replace(Array)
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('$row->id_kota')
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-11-22 11:04:45 --> Column 'id_kota' cannot be null
+CRITICAL - 2021-11-22 11:04:45 --> Column 'id_kota' cannot be null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('REPLACE INTO `k...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1799): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(397): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(1034): CodeIgniter\Model->doReplace(Array, false)
+#6 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\BaseModel->replace(Array)
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('$row->id_kota')
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-11-22 11:04:47 --> Column 'id_kota' cannot be null
+CRITICAL - 2021-11-22 11:04:47 --> Column 'id_kota' cannot be null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('REPLACE INTO `k...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `k...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `k...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1799): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `k...', Array, false)
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(397): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(1034): CodeIgniter\Model->doReplace(Array, false)
+#6 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(60): CodeIgniter\BaseModel->replace(Array)
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->editKota('$row->id_kota')
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-11-22 11:13:06 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(24): CodeIgniter\BaseModel->delete('0')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->deleteKota('0')
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-22 19:21:57 --> Call to a member function getFilename() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:24:05 --> Call to a member function getFilename() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:26:49 --> Attempt to read property "request" on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 19:27:22 --> Attempt to read property "request" on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 19:29:34 --> Call to a member function getFilename() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:42:54 --> Call to a member function getFilename() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:43:39 --> Call to a member function getName() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:50:58 --> Call to a member function getFilename() on array
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:56:33 --> Call to a member function move() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 20:04:54 --> Call to undefined function form_open_multipart()
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('v_insert_kota', Array, true)
+#3 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(48): view('v_insert_kota')
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->create()
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-22 20:13:06 --> Call to a member function getFilename() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 20:16:56 --> Call to a member function getRandomName() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 20:25:01 --> Call to a member function getRandomName() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 20:25:42 --> Call to a member function getFilename() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 20:37:37 --> Call to a member function getFilename() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 20:38:47 --> Call to a member function getFilename() on null
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 20:52:14 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\xampp\\htdocs...', '')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-22 20:53:05 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\xampp\\htdocs...', '')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-22 21:06:48 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('D:\\xampp\\htdocs...', '')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->updateKota()
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}

@@ -1,0 +1,59 @@
+CRITICAL - 2021-11-29 02:29:59 --> Unclosed '{' on line 34
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\m_ko...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\m_ko...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\c_kota->__construct()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-29 02:30:30 --> Unclosed '{' on line 34
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\m_ko...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\m_ko...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\c_kota->__construct()
+#4 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-11-29 02:44:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-11-29 02:44:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT * FROM k...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\app\Models\m_kota.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(84): App\Models\m_kota->viewDataKota(NULL)
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->searchKota()
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-11-29 02:44:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-11-29 02:44:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT * FROM k...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\app\Models\m_kota.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(84): App\Models\m_kota->viewDataKota(NULL)
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->searchKota()
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-11-29 02:44:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-11-29 02:44:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT * FROM k...')
+#1 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 D:\xampp\htdocs\ppl-pertemuan1\app\Models\m_kota.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 D:\xampp\htdocs\ppl-pertemuan1\app\Controllers\c_kota.php(84): App\Models\m_kota->viewDataKota(NULL)
+#5 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_kota->searchKota()
+#6 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_kota))
+#7 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ppl-pertemuan1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\ppl-pertemuan1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,108 @@
+CRITICAL - 2021-11-16 11:48:19 --> Undefined array key "user_id"
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\c_login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 26)
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\c_login->auth()
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_login))
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 11:48:56 --> Class "Config\App\Filters\Auth" not found
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('Home', 'before')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-16 11:56:47 --> Class "Config\Auth" not found
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('Home', 'before')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-16 11:56:48 --> Class "Config\Auth" not found
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('Home', 'before')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-16 11:58:43 --> Class "CodeIgniter\Filters\Auth" not found
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('Home', 'before')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-16 12:48:41 --> auth filter must have a matching alias defined.
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-16 12:48:57 --> auth filter must have a matching alias defined.
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-16 12:49:50 --> Class "CodeIgniter\Filters\Auth" not found
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('c_login', 'before')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-16 12:49:55 --> Class "CodeIgniter\Filters\Auth" not found
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('c_login', 'before')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-16 12:52:54 --> Class "CodeIgniter\Filters\Auth" not found
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('Home', 'before')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-16 12:53:57 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\Home.php on line 11
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\Home.php(11): view('v_home', 'ali')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 12:55:03 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\Home.php on line 11
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\Home.php(11): view('v_home', 'ali')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 12:55:05 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\Home.php on line 11
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\Home.php(11): view('v_home', 'ali')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 12:55:09 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\Home.php on line 11
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\Home.php(11): view('v_home', 'ali')
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 12:55:50 --> Undefined variable $session
+#0 D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Views\v_home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 5)
+#1 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('v_home', Array, true)
+#4 D:\xampp\htdocs\ppl-pertemuan1 - Copy\app\Controllers\Home.php(10): view('v_home')
+#5 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ppl-pertemuan1 - Copy\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\ppl-pertemuan1 - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
